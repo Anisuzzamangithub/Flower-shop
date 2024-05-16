@@ -1,0 +1,303 @@
+/* Common Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header style start */
+
+header {
+  background-color: #e5547327;
+}
+
+.header_continer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.header_title {
+  font-size: 60px;
+  font-weight: 800px;
+  color: #272727;
+  margin-bottom: 10px;
+
+}
+
+.Header_pragraph {
+  font-size: 18px;
+  font-weight: 400px;
+  margin-bottom: 10px;
+}
+
+.header_btn {
+  background-color: #E55473;
+  font-size: 20px;
+  font-weight: 800px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+/* header style End */
+
+.Main_img_box {
+  width: 464px;
+  height: 605;
+
+}
+
+.main1 {
+  width: 80%;
+  margin: auto;
+}
+.main_text_area{
+  margin-top: 10%;
+  text-align: center;
+}
+.main_title{
+  font-size: 40px;
+  font-weight: bold;
+  color: #272727;
+  margin-bottom: 2%;
+
+}
+.main_pragrap{
+  font-size: 18px;
+  font-weight: 400px;
+  color:#27272785 ;
+}
+
+.main_feture-imageSetion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+
+}
+
+.img_section {
+
+  background-color: #a721621f;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+  border-radius: 50% 50% 0 0;
+  width: 464px;
+  height: 464px;
+
+
+}
+.img_section2 {
+
+  background-color: #477d111e;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+  border-radius: 50% 50% 0 0;
+  width: 464px;
+  height: 464px;
+
+
+}
+.img_section1 {
+
+  background-color: #0598a027;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20%;
+  border-radius: 50% 50% 0 0;
+  width: 464px;
+  height: 464px;
+
+
+}
+
+.img-1 {
+  width: 269px;
+}
+.img-2{
+  width: 246px;
+}
+
+.Img_caption {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600px;
+
+
+}
+.img-txt{
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.services_section{
+  display: flex;
+  gap: 30px ;
+  justify-content: center;
+  background-color: #2727273a;
+  margin-top: 10%;
+  border-radius: 20px;
+}
+.sevices_item{
+  padding: 100px 50px;
+  text-align: center;
+}
+.services_img{
+  width: 70px;
+}
+.text-services{
+  font-size: 20px;
+  font-weight: 200px;
+  color: #272727;
+}
+
+.offersection{
+  background-color: #e5547321;
+  margin-top: 10%;
+}
+.offersection-box{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 8%;
+}
+.offer_textarea{
+  text-align: center;
+}
+.offer-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.offer-off{
+ color: #E55473;
+}
+.offer-prag{
+  font-size: 20px;
+  color: #27272775;
+  margin-top: 20px;
+}
+
+.offer-btn{
+  background-color: #E55473;
+  font-size: 20px;
+  font-weight: 800px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+
+}
+.instagramsection{
+  width: 80%;
+  margin: auto;
+
+}
+.insta_continer{
+  text-align: center;
+  margin-top: 10%;
+
+}
+.inta_title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.inta_pragrap{
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+.insta-imgsection{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px;
+}
+.cta-section{
+  width: 80%;
+  margin: auto;
+
+}
+.cta-section-tex{
+  text-align: center;
+  padding: 200px 400px;
+  background-image: url("Rectangle\ 9.png");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.cta-title{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.cta-pagra{
+  font-size: 20px;
+  color: #272727;
+  margin-top: 20px;
+}
+.inpute-se{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+.input-cta{
+  width: 600px;
+  height: 60px;
+  border: none;
+  color: #272727;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  
+}
+.cta-btn{
+  height: 60px;
+  width: 300px;
+  background-color: #E55473;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+ 
+  border: none
+}
+footer{
+  margin-top: 10%;
+  background-color: #111010;
+  padding: 10% 20%;
+  text-align: center;
+}
+footer h1{
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.foot-span{
+ color: #E55473;
+}
+footer p{
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+footer .copyright{
+  margin-top: 20px;
+  color: #645e5e;
+}
